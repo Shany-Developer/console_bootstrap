@@ -4,6 +4,15 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Shany-Developer</Authors>
+    <Company />
+    <Description>Package to have basic functionalities for console interaction.
+Includes spinners, tables, colors, questions, logging,..</Description>
+    <PackageProjectUrl>https://github.com/Shany-Developer/console_bootstrap</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Shany-Developer/console_bootstrap.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>console;bootstrap;interactions</PackageTags>
   </PropertyGroup>
 
 
