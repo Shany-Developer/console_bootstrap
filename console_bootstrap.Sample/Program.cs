@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using console_bootstrap;
+
+try
+{
+    var name = $"Please enter your name".ask();
+}
+catch (Exception ex)
+{
+    ex.error();
+}
+
