@@ -12,7 +12,7 @@ Dependencies imported -
 You can use these dependencies directly in code or use any extension method available in library.
 
 
-![alt text](https://github.com/Shany-Developer/console_bootstrap/console_bootstrap.Sample/op/Output1.png?raw=true)
+![alt text](./console_bootstrap.Sample/op/Output1.png?raw=true)
 
 Extension methods -
 ```c#
