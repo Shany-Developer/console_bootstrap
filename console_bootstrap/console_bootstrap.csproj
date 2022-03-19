@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -15,6 +15,7 @@ Includes spinners, tables, colors, questions, logging,..</Description>
     <PackageTags>console;bootstrap;interactions</PackageTags>
     <Version>1.0.1</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
   </PropertyGroup>
 
 
@@ -26,5 +27,8 @@ Includes spinners, tables, colors, questions, logging,..</Description>
     <PackageReference Include="Pastel" Version="3.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="..\readme.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>
