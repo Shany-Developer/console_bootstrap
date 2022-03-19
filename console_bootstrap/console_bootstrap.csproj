@@ -13,7 +13,7 @@ Includes spinners, tables, colors, questions, logging,..</Description>
     <RepositoryUrl>https://github.com/Shany-Developer/console_bootstrap.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>console;bootstrap;interactions</PackageTags>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
   </PropertyGroup>
