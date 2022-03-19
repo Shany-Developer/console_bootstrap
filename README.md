@@ -2,12 +2,12 @@
 Necessary dependencies for you to forget setup and  immediately focus on logic 
 
 
-Dependencies imported -
-    https://www.nuget.org/packages/ConsoleTables/
-    https://www.nuget.org/packages/Colorful.Console/
-    https://www.nuget.org/packages/Chiwchi.Console/
-    https://www.nuget.org/packages/Pastel/
-    https://www.nuget.org/packages/Newtonsoft.Json/
+Dependencies imported -  
+    https://www.nuget.org/packages/ConsoleTables/  
+    https://www.nuget.org/packages/Colorful.Console/  
+    https://www.nuget.org/packages/Chiwchi.Console/  
+    https://www.nuget.org/packages/Pastel/  
+    https://www.nuget.org/packages/Newtonsoft.Json/  
 
 You can use these dependencies directly in code or use any extension method available in library.
 
@@ -15,6 +15,7 @@ You can use these dependencies directly in code or use any extension method avai
 ![alt text](https://github.com/Shany-Developer/console_bootstrap/console_bootstrap.Sample/op/Output1.png?raw=true)
 
 Extension methods -
+```c#
    //get input from user
     var name = $"Please enter your name".ask();
 
@@ -54,9 +55,9 @@ Extension methods -
 
     json.get("field1.field2")["field3"].ToString().success();
 
-
+```
 Useful functions from dependencies -
-
+```c#
     //display tabular data
     var data = new[] { new { column1 = "Value1.1", column2 = "value1.2" }, new { column1 = "Value2.1", column2 = "value2.2" } };
     ConsoleTable.From(data).Write();
