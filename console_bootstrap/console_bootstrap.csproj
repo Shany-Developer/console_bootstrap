@@ -14,6 +14,7 @@ Includes spinners, tables, colors, questions, logging,..</Description>
     <RepositoryType>git</RepositoryType>
     <PackageTags>console;bootstrap;interactions</PackageTags>
     <Version>1.0.1</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 
