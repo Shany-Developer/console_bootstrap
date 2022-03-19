@@ -3,11 +3,11 @@ Necessary dependencies for you to forget setup and  immediately focus on logic
 
 
 Dependencies imported -  
-    https://www.nuget.org/packages/ConsoleTables/  
-    https://www.nuget.org/packages/Colorful.Console/  
-    https://www.nuget.org/packages/Chiwchi.Console/  
-    https://www.nuget.org/packages/Pastel/  
-    https://www.nuget.org/packages/Newtonsoft.Json/  
+- https://www.nuget.org/packages/ConsoleTables/  
+- https://www.nuget.org/packages/Colorful.Console/  
+- https://www.nuget.org/packages/Chiwchi.Console/  
+- https://www.nuget.org/packages/Pastel/  
+- https://www.nuget.org/packages/Newtonsoft.Json/  
 
 You can use these dependencies directly in code or use any extension method available in library.
 
