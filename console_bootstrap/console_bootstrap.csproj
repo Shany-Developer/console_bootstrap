@@ -1,9 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Shany-Developer</Authors>
     <Company />
@@ -28,7 +26,7 @@ Includes spinners, tables, colors, questions, logging,..</Description>
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\readme.md" Pack="true" PackagePath="\"/>
+    <None Include="..\readme.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>

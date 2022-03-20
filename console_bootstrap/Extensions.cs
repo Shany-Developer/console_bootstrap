@@ -2,7 +2,6 @@
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Drawing;
 using System.Globalization;
 using System.Linq;
