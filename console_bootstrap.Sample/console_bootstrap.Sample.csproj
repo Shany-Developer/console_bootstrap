@@ -11,4 +11,8 @@
     <Folder Include="op\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="console_bootstrap" Version="1.0.4" />
+  </ItemGroup>
+
 </Project>
